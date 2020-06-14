@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">文摘随笔</string>
+    <string name="Yesterday_btn">我的随笔</string>
+    <string name="taday_btn">今日文摘</string>
+    <string name="add_btn">添加笔记</string>
+    <string name="cancel_btn">取消</string>
+    <string name="save_btn">保存</string>
+    <string name="content">请输入内容</string>
+    <string name="title_ed">请输入标题</string>
+</resources>

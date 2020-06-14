@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FinalWork</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="taday_btn">Today Recommond</string>
+    <string name="Yesterday_btn">Review</string>
+    <string name="add_btn">Add</string>
+    <string name="save_btn">Save</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="title_ed">Input title</string>
+    <string name="content">Input context</string>
+
+
+
+</resources>

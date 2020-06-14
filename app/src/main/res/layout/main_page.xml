@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/finalwork"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage">
+
+
+    <ImageView
+        android:id="@+id/mianbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/mainbg2" />
+
+    <Button
+        android:id="@+id/taday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="60dp"
+        android:outlineSpotShadowColor="@color/cardview_dark_background"
+        android:text="@string/taday_btn"
+        android:onClick="Open"
+        android:textColor="@color/colorAccent"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/yestoday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="60dp"
+        android:onClick="Open"
+        android:outlineSpotShadowColor="@color/cardview_dark_background"
+        android:text="@string/Yesterday_btn"
+        android:textColor="@color/colorAccent"
+
+        android:textSize="12dp" />
+
+</RelativeLayout>
