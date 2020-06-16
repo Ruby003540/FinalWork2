@@ -41,7 +41,7 @@ import java.util.Map;
 
 public class MainActivity extends ListActivity implements  Runnable{
 
-    private String TAG = "Oncreate运行成功";
+    private String TAG = "Oncreate";
     String title[]={"《远和近》","《偶然》","《错误》","《小巷》"};
     String author[]={"顾城","徐志摩","郑愁予","顾城"};
     String detail[]={"你，\n" +

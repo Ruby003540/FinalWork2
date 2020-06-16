@@ -6,15 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/topic"
-    tools:context=".EditorActivity">
-
+    tools:context=".ShowActivity">
 
     <EditText
         android:id="@+id/et_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/title_ed">
+        android:ems="10">
         <requestFocus />
     </EditText>
     <TextView
@@ -29,7 +27,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:hint="@string/content"
         android:gravity="left"/>
 
     <LinearLayout
@@ -45,7 +42,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
             android:text="@string/save_btn"
-            android:onClick="OpenEdit"
+            android:onClick="add"
             android:textSize="20sp"/>
         <Button
             android:id="@+id/btn_cancel"
@@ -54,7 +51,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
             android:text="@string/cancel_btn"
-            android:onClick="OpenEdit"
+            android:onClick="add"
             android:textSize="20sp"/>
 
     </LinearLayout>

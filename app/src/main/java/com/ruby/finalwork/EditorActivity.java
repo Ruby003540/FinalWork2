@@ -37,9 +37,14 @@ Button save,cancel;
             EditText context=(EditText)findViewById(R.id.et_content);
             String s1=title.getText().toString();
             String s2=context.getText().toString();
-            NoteManager manager =new NoteManager(this);
-            manager.add(new NoteItem(s1,s2));
-            Toast.makeText(getApplicationContext(),"保存成功",Toast.LENGTH_LONG).show();
+            if(s1.length()>0&&s2.length()>0) {
+                NoteManager manager = new NoteManager(this);
+                manager.add(new NoteItem(s1, s2));
+
+                Toast.makeText(getApplicationContext(), "保存成功", Toast.LENGTH_LONG).show();
+            }else{
+                Toast.makeText(getApplicationContext(), "请输入内容", Toast.LENGTH_LONG).show();
+            }
         }else if (btn==cancel){
             Intent today = new Intent(this, RecordActivity.class);
             startActivity(today);

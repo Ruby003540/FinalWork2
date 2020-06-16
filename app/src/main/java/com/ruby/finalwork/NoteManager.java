@@ -25,6 +25,7 @@ public class NoteManager {
         db.insert(TBNAME, null, values);
         db.close();
     }
+
     public List<NoteItem> listAll(){
         List<NoteItem> noteList = null;
         SQLiteDatabase db = dbHelper.getReadableDatabase();
@@ -46,5 +47,11 @@ public class NoteManager {
 
     }
 
+
+    public void deleteAll(){
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        db.delete(TBNAME,null,null);
+        db.close();
+    }
 
 }

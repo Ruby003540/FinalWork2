@@ -16,6 +16,7 @@
 
         <ListView
             android:id="@+id/lv_note"
+            android:background="@mipmap/topic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp">
@@ -28,8 +29,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:text="@string/add_btn"
         android:onClick="OpenAdd"
+        android:text="@string/add_btn"
+        android:textColor="#C93C3737"
         android:textSize="20sp" />
 
 </LinearLayout>

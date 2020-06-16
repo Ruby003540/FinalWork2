@@ -26,11 +26,11 @@
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="40dp"
         android:layout_marginBottom="60dp"
+        android:onClick="Open"
         android:outlineSpotShadowColor="@color/cardview_dark_background"
         android:text="@string/taday_btn"
-        android:onClick="Open"
-        android:textColor="@color/colorAccent"
-        android:textSize="12dp" />
+        android:textColor="#39443F"
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/yestoday"
@@ -43,8 +43,7 @@
         android:onClick="Open"
         android:outlineSpotShadowColor="@color/cardview_dark_background"
         android:text="@string/Yesterday_btn"
-        android:textColor="@color/colorAccent"
-
-        android:textSize="12dp" />
+        android:textColor="#313533"
+        android:textSize="15sp" />
 
 </RelativeLayout>
